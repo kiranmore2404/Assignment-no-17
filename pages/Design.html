@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .product-card {
+        background-color: #ffe6e6;
+        width: 180px;
+        padding: 10px 5px;
+        border-radius: 10px;
+        display: block;
+        border: double 4px #ff661a;
+      }
+      .product-img {
+        width: 150px;
+        display: block;
+        margin:  auto;
+        border-radius: 10px;
+      }
+      .btn2{
+        background-color: #ff884d;
+        padding: 5px 20px;
+        border-radius: 30px;
+        display: block;
+        margin: 10px auto;
+      }
+      .btn2:hover{
+      background-color:#ff661a;
+      }
+      .product {
+        background-color: #ffcccc;
+        width: 190px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: double 4px #ff3333;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px;
+      }
+      .watch-img {
+        width: 130px;
+        display: block;
+        border-radius: 10px;
+        margin: 10px auto;
+      }
+      .btn2 {
+        background-color: #ff9999;
+        padding: 5px 20px;
+        border-radius: 30px;
+        display: block;
+        margin: 10px auto;
+      }
+      .product1 {
+        background-color: #ccd9ff;
+        width: 190px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: solid #0039e6;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px;
+      }
+      .btn3 {
+        background-color: #91a4de;
+        padding: 5px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;
+      }
+      .produc3 {
+        background-color: #e0e0eb;
+        width: 190px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: double 4px #5a5a8c;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px;
+      }
+      .btn4 {
+        background-color: #d0d0e1;
+        padding: 5px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;
+      }
+      .product6{
+        background-color: #e0e0eb;
+        width: 190px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: double 4px #5a5a8c;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px;
+        
+      }
+      .watch-img1{
+        width: 125px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+      }
+      .btn6{
+        background-color: #d0d0e1;
+        padding: 5px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;
+      }
+      .produc2{
+        background-color: #ffffcc;
+        width: 190px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: double 4px #ffff33;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px;
+        
+      }
+      .watch-img2{
+        width: 110px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+      }
+      .buttion{
+        background-color: #d0d0e1;
+        padding: 5px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;
+
+      }
+      .productno7{
+        background-color: #d9d9d9;
+        width: 190px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: double 4px #737373;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px;
+      }
+      .watch-img7{
+        width: 110px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+      }
+      .btn7{
+        background-color: #d0d0e1;
+        padding: 5px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;
+      }
+      .product8{
+        background-color: #b3b3b3;
+        width: 190px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: double 4px #000000;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px;
+      }
+      .watch-img8{
+        width: 150px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+        height: 120px;
+      }
+      .btn8{
+        background-color: #d0d0e1;
+        padding: 5px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;  
+      }
+      .product10{
+        background-color: white;
+        width: 190px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: double 4px #75a3a3;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px
+      }
+      .watch-img10{
+        width: 90px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+        
+
+      }
+      .btn10{
+        background-color: #e6f7ff;
+        padding: 5px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;  
+      }
+      .product11{
+        background-color: white
+        ;
+        width: 190px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: double 4px #75a3a3 ;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px
+      }
+      .watch-img11{
+        width: 180px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+        
+
+      }
+      .btn11{
+        background-color: #ffe6ff;
+        padding: 5px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;  
+      }
+      .product12{
+        background-color: white;
+        width: 190px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: double 4px #75a3a3;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px
+      }
+      .watch-img12{
+        width: 180px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+        
+
+      }
+      .btn12{
+        background-color: #e6f7ff;
+        padding: 5px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;  
+      }
+      .product13{
+        background-color: white;
+        width: 190px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: double 4px #75a3a3;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px
+      }
+      .watch-img13{
+        width: 180px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+        
+
+      }
+      .btn13{
+        background-color: #e6f7ff;
+        padding: 5px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;  
+      }
+      .product14{
+        background-color: white;
+        width: 190px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: double 4px #75a3a3;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px
+      }
+      .watch-img14{
+        width: 190px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+        
+
+      }
+      .btn14{
+        background-color: #e6f7ff;
+        padding: 5px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;  
+      }
+      .product15{
+        background-color: white;
+        width: 170px;
+        padding: 20px 5px;
+        display: block;
+        border-radius: 10px;
+        border: double 4px #75a3a3;
+        height: 240px;
+        margin-left: 30px;
+        margin-top: 20px
+      }
+      .watch-img15{
+        width: 150px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 10px;
+        
+
+      }
+      .btn15{
+        background-color: #e6f7ff;
+        padding: 5px 20px;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;  
+      }
+      .h12{
+        margin-left: 30%;
+        color: red;
+        font-size: 50px;
+      }
+      .mar{
+        
+      
+        font-size: 40px;
+        color: black;
+
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <h1 class="h12">🛒Kiran online shopping🛍️</h1>
+    <table>
+      <tr>
+        <td>
+          <div class="product">
+            <img src="../img/watch1.webp" class="watch-img" alt="" />
+            <p>men's smart watch</p>
+            <p><b>Price</b>1200/-</p>
+            <a href="../pages/buynow.html"><button class="btn2">Shop now</a></button>
+          </div>
+        </td>
+
+        <td>
+          <div class="produc3">
+            <img src="../img/187.jpg" class="watch-img" alt="" />
+            <p>men's smart watch</p>
+            <p><b>Price</b>1200/-</p>
+            <a href="../pages/buynow.html"><button class="btn4" type="submit">Shop now
+            </a>
+            </button>
+          </div>
+        </td>
+        <td>
+          <div class="product1">
+            <img src="../img/3794066.jpg" class="watch-img" alt="" />
+            <p>men's smart watch</p>
+            <p><b>Price</b>1200/-</p>
+            <button class="btn3" type="submit">Shop now</button>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="../img/3810675.jpg" class="watch-img" alt="" />
+            <p>men's smart watch</p>
+            <p><b>Price</b>1200/-</p>
+            <button class="btn2" type="submit">Shop now</button>
+          </div>
+        </td>
+        <td>
+          <div class="product8">
+            <img src="../img/images.jpeg" class="watch-img8" alt="" />
+            <p>men's smart watch</p>
+            <p><b>Price</b>1200/-</p>
+            <button class="btn8" type="submit">Shop now</button>
+          </div>
+        </td>
+        
+        <td>
+          <div class="productno7">
+            <img src="../img/OH1BPC0.jpg" class="watch-img7" alt="" />
+            <p>men's smart watch</p>
+            <p><b>Price</b>1200/-</p>
+            <button class="btn7" type="submit">Shop now</button>
+          </div>
+        </td>
+      </tr>
+      <marquee behavior="right" direction="right" scrollamount="15"  class="mar"><b>Half Price Sale | 50% off or more: Fashion 90% OFF On End of Reason Sale | Coming Soon</b></marquee>
+      <tr>
+        <tr>
+          <td>
+            <div class="product">
+              <img src="../img/sandle no1.jpeg" class="watch-img" alt="" />
+              <p>men's smart watch</p>
+              <p><b>Price</b>1200/-</p>
+              <button class="btn2" type="submit">Shop now</button>
+            </div>
+          </td>
+  
+          <td>
+            <div class="produc2">
+              <img src="../img/sandle no 3 .webp" class="watch-img2" alt="" />
+              <p>men's smart watch</p>
+              <p><b>Price</b>1200/-</p>
+              <button class="buttion" type="submit">Shop now</button>
+            </div>
+          </td>
+          <td>
+            <div class="productno7">
+              <img src="../img/sandle no 5.jpeg" class="watch-img7" alt="" />
+              <p>men's smart watch</p>
+              <p><b>Price</b>1200/-</p>
+              <button class="btn7" type="submit">Shop now</button>
+            </div>
+          </td>
+          <td>
+            <div class="product1">
+              <img src="../img/images4.jpeg" class="watch-img" alt="" />
+              <p>men's smart watch</p>
+              <p><b>Price</b>1200/-</p>
+              <button class="btn7" type="submit">Shop now</button>
+            </div>
+          </td>
+          <td>
+            <div class="product6">
+              <img src="../img/sandle6.jpeg" class="watch-img1" alt="" />
+              <p>men's smart watch</p>
+              <p><b>Price</b>1200/-</p>
+              <button class="btn6" type="submit">Shop now</button>
+            </div>
+          </td>
+          <td>
+            <div class="product">
+              <img src="../img/sandle7.jpeg" class="watch-img" alt="" />
+              <p>men's smart watch</p>
+              <p><b>Price</b>1200/-</p>
+              <button class="btn2" type="submit">Shop now</button>
+            </div>
+          </td>
+          
+        </tr>
+      </tr>
+      
+      <tr>
+        <td>
+          
+          <div class="product10">
+            <img src="../img/close-up-futuristic-sneakers-showcase.jpg" class="watch-img10" alt="" />
+            <p>men's smart watch</p>
+            <p><b>Price</b>1200/-</p>
+            <button class="btn10" type="submit">Shop now</button>
+          </div>
+          
+        </td>
+        <td>
+          <div class="product11">
+            <img src="../img/3d-shoe-fire-with-flames.jpg" class="watch-img11" alt="" />
+            <p>men's smart watch</p>
+            <p><b>Price</b>1200/-</p>
+            <button class="btn11" type="submit">Shop now</button>
+          </div>
+        </td>
+        <td>
+          <div class="product12">
+            <img src="../img/sports-shoe-illustration-men-fashion-generated-by-ai.jpg" class="watch-img12" alt="" />
+            <p>men's smart watch</p>
+            <p><b>Price</b>1200/-</p>
+            <button class="btn12" type="submit">Shop now</button>
+          </div>
+        </td>
+        <td>
+          <div class="product13">
+            <img src="../img/boot.jpg" class="watch-img13" alt="" />
+            <p>men's smart watch</p>
+            <p><b>Price</b>1200/-</p>
+            <button class="btn13" type="submit">Shop now</button>
+          </div>
+        </td>
+        <td>
+          <div class="product13">
+            <img src="../img/modern-leather-sports-shoe-untied-shoelace-foreground-generated-by-ai.jpg" class="watch-img13" alt="" />
+            <p>men's smart watch</p>
+            <p><b>Price</b>1200/-</p>
+            <button class="btn13" type="submit">Shop now</button>
+          </div>
+        </td>
+        <td>
+          <div class="product15">
+            <img src="../img/pair-trainers.jpg" class="watch-img15" alt="" />
+            <p>men's smart watch</p>
+            <p><b>Price</b>1200/-</p>
+            <button class="btn15" type="submit">Shop now</button>
+          </div>
+        </td>
+      </tr>
+      
+    </table>
+  </body>
+</html>
